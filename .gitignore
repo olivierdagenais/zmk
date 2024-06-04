@@ -4,8 +4,9 @@
 /tools
 /zephyr
 /zmk-config
-/build
 *.DS_Store
 __pycache__
 .python-version
 .venv
+combined
+glove81.uf2
