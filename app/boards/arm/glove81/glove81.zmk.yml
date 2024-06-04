@@ -1,0 +1,16 @@
+file_format: "1"
+id: glove81
+name: Glove81
+type: board
+arch: arm
+url: https://github.com/olivierdagenais/zmk
+features:
+  - keys
+  - underglow
+  - backlight
+outputs:
+  - usb
+  - ble
+siblings:
+  - glove81_lh
+  - glove81_rh
