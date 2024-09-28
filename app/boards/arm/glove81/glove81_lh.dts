@@ -122,3 +122,9 @@
         , <&gpio1 1 GPIO_ACTIVE_HIGH> // LH Thumb
         ;
 };
+
+&kscan_direct {
+    input-gpios
+        = <&gpio0 22 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        ;
+};
